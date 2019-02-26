@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bwm-ng": {
+    "bnb-ng": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -59,18 +59,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "bwm-ng:build"
+            "browserTarget": "bnb-ng:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "bwm-ng:build:production"
+              "browserTarget": "bnb-ng:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "bwm-ng:build"
+            "browserTarget": "bnb-ng:build"
           }
         },
         "test": {
@@ -110,7 +110,7 @@
         }
       }
     },
-    "bwm-ng-e2e": {
+    "bnb-ng-e2e": {
       "root": "",
       "sourceRoot": "e2e",
       "projectType": "application",
@@ -119,7 +119,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "bwm-ng:serve"
+            "devServerTarget": "bnb-ng:serve"
           }
         },
         "lint": {
@@ -136,14 +136,14 @@
       }
     }
   },
-  "defaultProject": "bwm-ng",
+  "defaultProject": "bnb-ng",
   "schematics": {
     "@schematics/angular:component": {
-      "prefix": "bwm",
+      "prefix": "bnb",
       "styleext": "scss"
     },
     "@schematics/angular:directive": {
-      "prefix": "bwm"
+      "prefix": "bnb"
     }
   }
 }

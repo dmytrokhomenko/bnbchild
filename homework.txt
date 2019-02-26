@@ -4,7 +4,7 @@ Rental Modules Homework !
   1. Go to rental-list.component.html, you can see we are hardcoding 4 rental items.
   2. In rental-list.component.ts create rentals array of 4 items, they can be just some strings
      important thing is that we can iterate through them
-  3. in rental-list.component.html iterate through this array(find out how you can create for loop in angular) and inside of this loop render <bwm-rental-list-item></bwm-rental-list-item>
+  3. in rental-list.component.html iterate through this array(find out how you can create for loop in angular) and inside of this loop render <bnb-rental-list-item></bnb-rental-list-item>
   4. Good Luck! We will start with this next section and will add real data.
 
 
@@ -63,7 +63,7 @@ Try to get :rentalId Parameter display on rental details page.
 1. Create function "login" that sent POST request to our "/api/v1/users/auth" with data from Form
 2. On form submit call this function inside of our login.component.ts
 3. Redirect user to "/rentals" on succesful login
-4. !!!!BONUS!!!! Save a token to local storage under a key "bwm_auth". Save a token in auth service
+4. !!!!BONUS!!!! Save a token to local storage under a key "bnb_auth". Save a token in auth service
 5. Good luck and have fun (:
 
 ########## ASSIGNMENT 6, Booking Model ############
