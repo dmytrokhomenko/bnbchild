@@ -140,7 +140,8 @@
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "bnb",
-      "styleext": "scss"
+      "styleext": "scss",
+      "spec": false
     },
     "@schematics/angular:directive": {
       "prefix": "bnb"
