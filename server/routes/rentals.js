@@ -4,7 +4,7 @@ const Rental = require('../models/rental')
 
 router.get('', (req, res) => {
     Rental.find({}, (err, foundRentals) => {
-        res.json({ ok: true, foundRentals: foundRentals })
+        res.json(foundRentals)
     });
 });
 
@@ -16,7 +16,7 @@ router.get('/:id', (req, res) => {
             res.status(422).send({errors: [{title: 'Rental Error!', detail: 'Could not find Rental!'}]});
         }
 
-        res.json({ok: true, foundRental: foundRental});
+        res.json(foundRental);
     });
 });
 
