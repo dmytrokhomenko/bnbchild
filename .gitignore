@@ -45,3 +45,6 @@ Thumbs.db
 
 /server/config/dev.js
 /server/.vscode
+
+
+/src/app/params/params.js
