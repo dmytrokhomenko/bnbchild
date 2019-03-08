@@ -1,3 +1,7 @@
+Increasing my khowledge of Angular 2+ and Node.js with "Angular 6 (Angular 2+) & React 16 - The Complete App Guide" tutorial.
+
+https://www.udemy.com/practical-angular-react-node-airbnb-style-application/
+
 # AngularStarter
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
