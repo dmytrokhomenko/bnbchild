@@ -6,11 +6,13 @@ import { NgPipesModule } from 'ngx-pipes';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './common/header/header.component';
+import { AuthComponent } from './auth/auth.component';
+import { AuthModule } from './auth/auth.module';
 
 
 
 const routes: Routes = [
-  {path: '', redirectTo: '/rentals', pathMatch: 'full' },//pathMatch 'full' will copy full url
+  {path: '', redirectTo: '/rentals', pathMatch: 'full' }//pathMatch 'full' will copy full url
 ]
 
 @NgModule({
@@ -22,6 +24,7 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     BrowserModule,
     RentalModule,
+    AuthModule,
     NgPipesModule
   ],
   providers: [],
